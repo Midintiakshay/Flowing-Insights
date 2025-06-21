@@ -203,8 +203,7 @@ const Index = () => {
           {/* Temperature Chart */}
           <Card className="backdrop-blur-sm bg-white/70 border-white/20 shadow-xl">
             <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Thermometer className="h-5 w-5 text-red-600" />
+              <CardTitle>
                 Temperature Stream
               </CardTitle>
             </CardHeader>
@@ -244,8 +243,7 @@ const Index = () => {
           {/* Humidity Chart */}
           <Card className="backdrop-blur-sm bg-white/70 border-white/20 shadow-xl">
             <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Droplets className="h-5 w-5 text-blue-600" />
+              <CardTitle>
                 Humidity Stream
               </CardTitle>
             </CardHeader>
@@ -280,10 +278,9 @@ const Index = () => {
         {/* Pressure Chart */}
         <Card className="backdrop-blur-sm bg-white/70 border-white/20 shadow-xl">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Gauge className="h-5 w-5 text-green-600" />
-              Pressure Analytics
-            </CardTitle>
+              <CardTitle>
+                Pressure Analytics
+              </CardTitle>
           </CardHeader>
           <CardContent>
             <ResponsiveContainer width="100%" height={400}>
